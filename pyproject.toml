@@ -5,7 +5,7 @@ description = "..."
 authors = [
     {name = "<wminhyuk>", email = "<seoseo1998@gmail.com>"},
 ]
-dependencies = ["pandas>=2.2.3", "president-speech>=0.9.1"]
+dependencies = ["pandas>=2.2.3", "president-speech>=0.9.1", "typer>=0.15.1"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
@@ -26,3 +26,7 @@ eda = [
 test = [
     "pytest>=8.3.4",
 ]
+
+[project.scripts]
+wminhyuk-eda = "wminhyuk_eda.cli:group_by_count"
+wminhyuk-eda-olympic = "wminhyuk_eda_olympic.cli:group_by_count"
