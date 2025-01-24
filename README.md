@@ -1,6 +1,7 @@
 # wminhyuk-eda
 
 ### USE
+```
 $ pip install
 $ wminhyuk-eda
 Usage: wminhyuk-eda [OPTIONS] KEYWORD
@@ -37,12 +38,12 @@ president  count
       이승만    438
       박정희    513
 
-wminhyuk-eda 자유 --asc --rcnt 3 --keyword-sum
+$ wminhyuk-eda 자유 --asc --rcnt 3 --keyword-sum
 president  count  keyword_sum
       윤보선      1            6
       최규하     14           28
       박근혜    111          250
-
+```
 
 ### DEV
 ```bash
